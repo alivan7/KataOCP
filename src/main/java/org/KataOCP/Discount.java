@@ -1,2 +1,5 @@
-package org.KataOCP;public interface Discount {
+package org.KataOCP;
+
+public interface Discount {
+    void applyDiscount();
 }
