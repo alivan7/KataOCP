@@ -6,8 +6,9 @@ public class SistemasDescuentosTest {
     @Test
     public void SistemDiscount(){
         FixedAmountDiscount fixedAmountDiscount = new FixedAmountDiscount();
-        PercentageDiscount percentageDiscount = new PercentageDiscount();
-        fixedAmountDiscount.applyDiscount(100);
+        PercentageDiscount percentageDiscount = new PercentageDiscount(20.0);
+        double resultDiscount = percentageDiscount.applyDiscount(100);
+        System.out.println(resultDiscount);
     }
 
 }

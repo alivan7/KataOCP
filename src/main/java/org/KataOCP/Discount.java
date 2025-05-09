@@ -1,5 +1,5 @@
 package org.KataOCP;
 
 public interface Discount {
-    void applyDiscount(double amount);
+    double applyDiscount(double amount);
 }
